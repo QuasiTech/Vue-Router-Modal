@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+}
+
+button {
+    border-radius:6px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:16px;
+    padding: 8px 16px;
+    transition: box-shadow 250ms;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+button:focus {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
